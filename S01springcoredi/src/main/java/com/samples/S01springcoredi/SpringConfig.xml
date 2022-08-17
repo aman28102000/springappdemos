@@ -35,7 +35,15 @@
 			</map>
 		</property>
 	</bean>
-
+	<bean name="Item"
+		class="com.samples.S01springcoredi.Item" p:id="37" p:name="soap" p:price="32" p:quantity="4">
+		
+	</bean>
+<bean name="s1"
+		class="com.samples.S01springcoredi.ShoppingCart" p:Item-ref="Item">
+			
+		
+	</bean>
 
 
 
